@@ -6,12 +6,11 @@ Key Features:
 Responsive design using React.js and Tailwind CSS
 Smooth animations with GSAP and Framer Motion
 Docker integration for easy deployment
-SEO and accessibility optimizations
 
 Technical Highlights:
 
 Frontend: React.js with component-based architecture
-Styling: Tailwind CSS for efficient, utility-first approach
+Styling: Tailwind CSS 
 Animations: GSAP for scroll effects, Framer Motion for component animations
 Containerization: Docker with custom setup
 Development: VS Code with Remote Containers
@@ -22,6 +21,9 @@ Responsive and accessible web design
 
 Thank you for your consideration.
 Best regards, Harsh yadav
+
+
+all the infomation which is used in this project is dummy text
 
 
 

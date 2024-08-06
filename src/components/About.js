@@ -54,7 +54,8 @@ const About = () => {
             </div>
             <div className="mt-8 text-center">
               <a
-                href="#contact"
+                href="https://harsh-org-portfolio.netlify.app/"
+                target='_blank'
                 className="inline-block bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition duration-300 transform hover:scale-105"
               >
                 Get in Touch
