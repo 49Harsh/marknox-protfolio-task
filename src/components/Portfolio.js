@@ -36,7 +36,7 @@ const Portfolio = () => {
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                 <p className="text-gray-600">{project.description}</p>
                 <a
-                  href="#"
+                  href="https://harsh-org-portfolio.netlify.app/"
                   className="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300"
                 >
                   View Project
