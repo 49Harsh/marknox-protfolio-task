@@ -6,8 +6,8 @@ const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false);
 
   return (
-    <header className="bg-gray-800 text-white">
-      <div className="container mx-auto px-4 py-6 flex justify-between items-center">
+    <header className="bg-gray-800 text-white border-b border-gray-500 sticky">
+      <div className="container mx-auto px-4 py-6 flex justify-between items-center bg-gradient-to-b from-gray-900 to-black">
         <motion.h1
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

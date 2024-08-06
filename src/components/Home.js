@@ -29,13 +29,13 @@ const Home = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} id="home" className="min-h-screen flex items-center justify-center bg-gray-100">
+    <section ref={sectionRef} id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-b from-black to-gray-900">
       <div className="text-center">
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-6xl font-bold mb-4"
+          className="text-4xl md:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500"
         >
           Welcome to My Portfolio
         </motion.h1>
@@ -43,7 +43,7 @@ const Home = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-xl md:text-2xl text-gray-600 mb-8"
+          className="text-xl md:text-2xl text-gray-600 mb-8 "
         >
           I'm a web developer passionate about creating amazing experiences.
         </motion.p>
